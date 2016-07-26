@@ -8,6 +8,10 @@ Record full hd to mp4 using ffmpeg
 
 **HowTo**
 
+Its pretty important that you put Recorder.py in ida plugins folder, and recorder folder as a
+
+subfolder to plugins folder \idafolder\plugins\recorder\
+
 Add ffmpeg in  plugins/recorder/bin to Os PATH
 
 Register filter with batch file located in plugins/recorder folder.
