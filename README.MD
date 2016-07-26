@@ -12,9 +12,9 @@ Add ffmpeg in  plugins/recorder/bin to Os PATH
 
 Register filter with batch file located in plugins/recorder folder.
 
-screen-capture-recorder.dll
+Qt-screen-capture.dll
 
-screen-capture-recorder-x64.dll
+Qt-screen-capture-x64.dll
 
 Remember to un register filter and re register register filter if you move filters to another folder some day.
 
