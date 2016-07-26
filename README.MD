@@ -7,6 +7,7 @@ Record full hd to mp4 using ffmpeg
 
 
 **HowTo**
+
 Add ffmpeg in  plugins/recorder/bin to Os PATH
 
 Register filter with batch file located in plugins/recorder folder.
