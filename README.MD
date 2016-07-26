@@ -5,6 +5,8 @@ PyQt4/PyQt5 plugin for recording your screen while you use Ida Pro.
 using modded version of [https://github.com/rdp/screen-capture-recorder-to-video-windows-free]()
 Record full hd to mp4 using ffmpeg
 
+
+**HowTo**
 Add ffmpeg in  plugins/recorder/bin to Os PATH
 
 Register filter with batch file located in plugins/recorder folder.
