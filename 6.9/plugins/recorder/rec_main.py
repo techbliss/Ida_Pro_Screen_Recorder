@@ -619,9 +619,9 @@ import record_rc
 if __name__ == "__main__":
     import sys
 
-    app = QtWidgets.QApplication.instance()  # enable for usage outside x64dbg
-    if not app:  # enable for usage outside x64dbg
-        app = QtWidgets.QApplication([])  # enable for usage outside x64dbg
+    app = QtWidgets.QApplication.instance()
+    if not app:
+        app = QtWidgets.QApplication([])
     MainWindow = QtWidgets.QMainWindow()
     ui = Ui_MainWindow()
     ui.setupUi(MainWindow)

@@ -613,16 +613,7 @@ class Ui_MainWindow(object):
         time.sleep(1)
         self.stopbutton.setEnabled(False)
         os.system("explorer " + idaapi.idadir("plugins\\recorder"))
-        #time.sleep(1)
-        #app.exec_()
 
-
-
-
-            # time.sleep(3)
-            # os.system("taskkill /im ffmpeg.exe")
-            # time.sleep(1)
-            # self.close()
 
     def closeEvent(self, event):
         result = QtGui.QMessageBox.question(self,
@@ -641,9 +632,9 @@ if __name__ == "__main__":
 
     import sys
 
-    app = QtGui.QApplication.instance()  # enable for usage outside x64dbg
-    if not app:  # enable for usage outside x64dbg
-        app = QtGui.QApplication([])  # enable for usage outside x64dbg
+    app = QtGui.QApplication.instance()
+    if not app:
+        app = QtGui.QApplication([])
     MainWindow = QtGui.QMainWindow()
     ui = Ui_MainWindow()
     ui.setupUi(MainWindow)
