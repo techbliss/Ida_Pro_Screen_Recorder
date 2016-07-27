@@ -27,14 +27,11 @@ after filters are registered you can check if filtersw are present.
 
 **OutPut**
 
-``` SSH
+```SSH
 C:\Users\Storm Shadow>ffmpeg -list_devices true -f dshow -i dummy
 ffmpeg version N-81036-g2b14204 Copyright (c) 2000-2016 the FFmpeg developers
-
 [dshow @ 00000000026024a0] DirectShow video devices (some may be both video and audio devices)
-
 [dshow @ 00000000026024a0]  "Qt-screen-capture"
-
 [dshow @ 00000000026024a0]     Alternative name "@device_sw_{860BB310-5D01-11D0-BD3B-00A0C911CE86}\{4EA69364-2C8A-4AE6-A561-56E4B5044439}"
 ```
 
