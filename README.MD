@@ -27,7 +27,7 @@ after filters are registered you can check if filtersw are present.
 
 **OutPut**
 
-`C:\Users\Storm Shadow>ffmpeg -list_devices true -f dshow -i dummy
+```C:\Users\Storm Shadow>ffmpeg -list_devices true -f dshow -i dummy
 ffmpeg version N-81036-g2b14204 Copyright (c) 2000-2016 the FFmpeg developers
   built with gcc 5.4.0 (GCC)
   configuration: --enable-gpl --enable-version3 --disable-w32threads --enable-dxva2 --enable-libmfx --enable-nvenc --enable-avisynth --enable-bzlib --enable-libebur128 --enable-fontconfig --enable-frei0r --enable-gnutls --enable-iconv --enable-libass --enable-libbluray --enable-libbs2b --enable-libcaca --enable-libfreetype --enable-libgme --enable-libgsm --enable-libilbc --enable-libmodplug --enable-libmp3lame --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-libopus --enable-librtmp --enable-libschroedinger --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libtheora --enable-libtwolame --enable-libvidstab --enable-libvo-amrwbenc --enable-libvorbis --enable-libvpx --enable-libwavpack --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxavs --enable-libxvid --enable-libzimg --enable-lzma --enable-decklink --enable-zlib
@@ -41,7 +41,7 @@ ffmpeg version N-81036-g2b14204 Copyright (c) 2000-2016 the FFmpeg developers
   libpostproc    54.  0.100 / 54.  0.100
 [dshow @ 00000000026024a0] DirectShow video devices (some may be both video and audio devices)
 [dshow @ 00000000026024a0]  "Qt-screen-capture"
-[dshow @ 00000000026024a0]     Alternative name "@device_sw_{860BB310-5D01-11D0-BD3B-00A0C911CE86}\{4EA69364-2C8A-4AE6-A561-56E4B5044439}"``
+[dshow @ 00000000026024a0]     Alternative name "@device_sw_{860BB310-5D01-11D0-BD3B-00A0C911CE86}\{4EA69364-2C8A-4AE6-A561-56E4B5044439}"````
 
 Remember to un register filter and re register register filter if you move filters to another folder some day.
 
